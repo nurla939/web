@@ -1,0 +1,67 @@
+/* Other styles */
+
+.navbar-green {
+    background-color: #f0ad4e;
+}
+
+.navbar-green .navbar-brand,
+.navbar-green .nav-link {
+    color: #ffffff;
+}
+
+.navbar-green .nav-link:hover {
+    color: #d4edda;
+}
+
+.navbar-nav.ml-auto:last-child {
+    margin-right: 50px; /* Add some spacing if needed */
+}
+
+
+.box {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.card.bg-primary {
+    background-color: #f0ad4e !important; /* Изменение цвета фона */
+    border-radius: 15px; /* Изменение формы (закругление углов) */
+}
+
+.card-body {
+    padding: 20px; /* Увеличение внутреннего отступа */
+}
+
+.card.bg-primary {
+    background-color: #85144b !important; /* Изменение цвета фона */
+    border-radius: 40%; /* Изменение формы на круг */
+    width: 200px; /* Задание фиксированной ширины */
+    height: 150px; /* Задание фиксированной высоты */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto; /* Центрирование карточек */
+}
+
+.card-body {
+    padding: 10px; /* Уменьшение внутреннего отступа */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-title {
+    font-size: 24px; /* Размер шрифта заголовка */
+}
+
+.card-text {
+    font-size: 12px; /* Размер шрифта текста */
+    margin-top: 5px; /* Отступ сверху для текста */
+}
+
+
